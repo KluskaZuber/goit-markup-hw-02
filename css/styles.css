@@ -1,0 +1,82 @@
+:root {
+  --brand-color-background_dark: #2f303a;
+  --brand-color-background-light-grey: #e5e5e5;
+  --brand-color-background-medium-grey: #f5f4fa;
+  --brand-color-blue: #2196f3;
+  --brand-color-tekst: #757575;
+  --brand-color-header: #212121;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--brand-color-tekst);
+}
+.h {
+  color: var(--brand-color-header);
+}
+a {
+  text-decoration: none;
+}
+.link-menu {
+  color: var(--brand-color-tekst);
+}
+.link-footer {
+  color: #ffffff 60;
+}
+
+.link-email {
+  color: var(--brand-color-blue);
+}
+.button {
+  display: block;
+  background-color: var(--brand-color-blue);
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  padding: 700, 430, 0, 200;
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.button-portfolio {
+  display: block;
+  text-align: center;
+  background-color: ver(--brand-color-background-light-grey);
+  cursor: pointer;
+}
+.button-portfolio:active {
+  background-color: ver(--brand-color-blue);
+  color: #ffffff;
+  cursor: pointer;
+}
+.button-portfolio:focus {
+  background-color: ver(--brand-color-blue);
+  color: #ffffff;
+  cursor: pointer;
+}
+.top_section {
+  background-color: var(--brand-color-background_dark);
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.mid_section {
+  background-color: var(--brand-color-background-light-grey);
+}
+.down_section {
+  background-color: var(--brand-color-background-medium-grey);
+}
+.footer {
+  background-color: var(--brand-color-background-dark);
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+}

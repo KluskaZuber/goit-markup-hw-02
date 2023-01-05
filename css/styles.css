@@ -36,9 +36,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.link-menu:active {
-  color: var(--brand-color-blue);
-}
+.link-menu:active,
 .link-menu:hover {
   color: var(--brand-color-blue);
 }
@@ -46,10 +44,10 @@ body {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   height: 16px;
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  font-style: normal;
 }
 .h1 {
   color: white;
@@ -91,7 +89,6 @@ body {
 .text {
   color: var(--brand-color-tekst);
   height: 75px;
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -99,7 +96,6 @@ body {
 .second-text {
   color: var(--brand-color-tekst);
   height: 19px;
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
@@ -118,11 +114,7 @@ body {
   padding: 10px 42px 10px 42px;
   cursor: pointer;
 }
-.button:active {
-  background-color: #ffffff;
-  color: var(--brand-color-background_dark);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+.button:active,
 .button:focus {
   background-color: #ffffff;
   color: var(--brand-color-background_dark);
@@ -147,25 +139,21 @@ body {
   padding: 10px 42px 10px 42px;
 }
 
-.button-portfolio:active {
+.button-portfolio:active,
+.button-portfolio:focus {
   background-color: var(--brand-color-blue);
   color: #ffffff;
   padding: 10px 42px 10px 42px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-.button-portfolio:focus {
-  background-color: var(--brand-color-blue);
-  color: #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
 .adress {
   text-decoration: none;
   font-family: var(--brand-font-primary);
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: white;
   cursor: default;
+  font-style: normal;
 }
 .logo-footer {
   color: white;
